@@ -35,6 +35,5 @@
 ## Please note, that we can change this policy without any warning at any given time.
 
 ## 7. Why do we needed GATEWAY_PRESENCE intent?
-
- - We need Gateway Presence intent, because we made a command named whois which displays a user’s status and game which the user is playing. As till now we didn’t applied for presence intent because we were not having this command before, but we added this command and our users liked it. It shows Status: offline and Game: none because for now we dont have presence intent, When you will approve the intent it will show the exact status and game of that particular user.
-- We store your status data because Flank has a command name whois which displays a particular user’s status ( idle, dnd, online and mobile ) and game status ( streaming, listening, playing and competing ) and without presence intent it is not possible to check someone’s status and game status.
+ 
+ - We need "GATEWAY_PRESENCE" because, We store your status data because Flank has a command name whois which displays a particular user’s status ( idle, dnd, online and mobile ) and game status ( streaming, listening, playing and competing ) and without presence intent it is not possible to check someone’s status and game status.
