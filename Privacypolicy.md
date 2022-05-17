@@ -29,11 +29,11 @@
 - Join our [Support Server](https://discord.gg/CtWBPUC4B6) on discord
 - Contact me on discord [https://discord.gg/flank](https://discord.gg/CtWBPUC4B6)
 
-## 6. How can we delete our entire data?
+## 6. How can we delete our entire data? 
 
 ### If you want to delete your entire data just simply join our support server and ask any of the bot moderator to delete your entire data, They will delete your entrie data without asking any question.
 ## Please note, that we can change this policy without any warning at any given time.
 
-## 7. Why do we needed GATEWAY_PRESENCE intent?
+## 7. Why we store your status data?
  
- - We need "GATEWAY_PRESENCE" because, We store your status data because Flank has a command name whois which displays a particular user’s status ( idle, dnd, online and mobile ) and game status ( streaming, listening, playing and competing ) and without presence intent it is not possible to check someone’s status and game status.
+ - We store your status data because Flank has a command name whois which displays a particular user’s status ( idle, dnd, online and mobile ) and game status ( streaming, listening, playing and competing ) and without presence intent it is not possible to check someone’s status and game status.
