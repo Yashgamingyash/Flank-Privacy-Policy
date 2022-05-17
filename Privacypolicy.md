@@ -4,7 +4,7 @@
 ## 1. What does it store?
 
  - Server IDs for servers data(settings)
- - Users IDs for (blacklist)
+ - Users IDs for (blacklist) & (user status)
 
 ## 2. Who can access the data?
 
@@ -21,7 +21,7 @@
 
 #### 2. It stores server IDs and user IDs for blacklist because:
 - We need to prevent people/servers that abuse the bot, break bot rules.
-
+- We store user IDs for whois command, whois command shows your / user status
 
 ## 5. I'm questioning why do you need all this data, and this Privacy Policy doesn't answer my question. What should I do?
 
@@ -34,8 +34,7 @@
 ### If you want to delete your entire data just simply join our support server and ask any of the bot moderator to delete your entire data, They will delete your entrie data without asking any question.
 ## Please note, that we can change this policy without any warning at any given time.
 
-## 7. Why do we needed message content intent?
+## 7. Why do we needed GATEWAY_PRESENCE intent?
 
- - We don't want to shift on Slash commands, and the bot also need to send embeds, attachments and components so we needed message content intent.
-
-## Note - We don't promote that do not shifting to SlashCommands. and we respect discord tos and rules.
+ - We need Gateway Presence intent, because we made a command named whois which displays a user’s status and game which the user is playing. As till now we didn’t applied for presence intent because we were not having this command before, but we added this command and our users liked it. It shows Status: offline and Game: none because for now we dont have presence intent, When you will approve the intent it will show the exact status and game of that particular user.
+- We store your status data because Flank has a command name whois which displays a particular user’s status ( idle, dnd, online and mobile ) and game status ( streaming, listening, playing and competing ) and without presence intent it is not possible to check someone’s status and game status.
