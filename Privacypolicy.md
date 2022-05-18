@@ -37,3 +37,7 @@
 ## 7. Why we store your status data?
  
  - We store your status data because Flank has a command name whois which displays a particular user’s status ( idle, dnd, online and mobile ) and game status ( streaming, listening, playing and competing ) and without presence intent it is not possible to check someone’s status and game status.
+
+## 8. Why we store your message data?
+ 
+ - We store your message data, because Flank have a command named blacklist word which delete’s the blacklisted word if someone sent it, So Flank need to read message sent by the members.
